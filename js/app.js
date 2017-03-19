@@ -40,7 +40,7 @@ $('form').submit(function (e) {
           $("ul li").hide();
             appHTML = "<li class='no-albums desc'>";
             appHTML += "<i class='material-icons icon-help'>help_outline</i>No albums found that match: "+ $("#search").val() +".</li>";
-            
+
         }
         $('#albums').html(appHTML);
     }
